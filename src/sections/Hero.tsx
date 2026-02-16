@@ -39,6 +39,7 @@ export default function Hero() {
             [rightPointerScope.current, { y: 0, x: 175 }, { duration: 0.5 }],
             [rightPointerScope.current, { x: 0, y: [0, 20, 0] }, { duration: 0.5, ease: "easeInOut" }],
         ]);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     return (

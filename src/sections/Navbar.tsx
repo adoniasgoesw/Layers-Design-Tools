@@ -7,7 +7,6 @@ import { useState } from "react";
 import { twMerge } from "tailwind-merge";
 
 import { AnimatePresence, motion } from "framer-motion";
-import { div } from "framer-motion/client";
 
 
 const navLinks = [

@@ -9,7 +9,7 @@ import outsideLogo from "@/assets/images/outside.svg";
 import apexLogo from "@/assets/images/apex.svg";
 import celestialLogo from "@/assets/images/celestial.svg";
 import twiceLogo from "@/assets/images/twice.svg";
-import { motion, useAnimate } from "framer-motion";
+import { motion } from "framer-motion";
 const logos = [
     { name: "Quantum", image: quantumLogo },
     { name: "Acme Corp", image: acmeLogo },
