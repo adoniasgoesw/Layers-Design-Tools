@@ -10,8 +10,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-    title: "Modern Design Tool Landing Page",
-    description: "Created with the help of Frontend Tribe",
+    title: "Layers - Impactful Design, Created Effortlessly",
+    description: "Design tools shouldn't slow you down. Layers combines powerful features with an intuitive interface that keeps you in your creative flow.",
+    icons: {
+        icon: '/logo.svg',
+        shortcut: '/logo.svg',
+        apple: '/logo.svg',
+    },
 };
 
 export default function RootLayout({
